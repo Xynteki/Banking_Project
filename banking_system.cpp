@@ -7,10 +7,11 @@
 // Employee: Employee ID, company Name, numberOfDaysWorkingHere, experienceInMonths.
 // we'll work on this everyday..
 
+#include <Employe.h>
 #include <iostream>
 
 using namespace std;
-
+/*
 //Class Address
 
 class Address
@@ -70,6 +71,7 @@ class Address
 			return zipCode;
 		}
 };
+*/
 
 void new_account()
 {
@@ -103,7 +105,7 @@ void exit_system()
 
 int main()
 {
-	Address ob1;
+	Employe ob1;
 	
 	ob1.set_name("Patrick ");
 	
